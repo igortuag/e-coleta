@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Home from './pages/Home/index'
+import Routes from './routes';
 
 function App() {
   return (
     <div>
-      <Home />
+      <Routes />
     </div>
   );
 }
