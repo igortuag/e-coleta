@@ -68,7 +68,7 @@ const Detail = () => {
 
                 <Text style={styles.pointName}>{data.point.name}</Text>
                 <Text style={styles.pointItems}>{
-                    {data.items.map(item => item.titile).join(', ')}
+                    data.items.map(item => item.titile).join(', ')
                 }</Text>
 
                 <View style={styles.address}>
